@@ -1,14 +1,20 @@
+import Name from "./Name";
 
-
-function DogCard(){
+function DogCard(props){
+   
     return(
         //single element wrap krke send krne ka
         <div>
+           
             <h3>Hello</h3>
             <h2>Moti</h2>
            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Street_dog_in_pune01.jpg/330px-Street_dog_in_pune01.jpg" alt="" />
             <h3>DogImg</h3>
             <DogImg/>
+            <Name>
+                <h3>{props.location}</h3>
+            </Name>
+
         </div>
     );
 }
