@@ -1,3 +1,4 @@
+import Counter from './CounterUsingHook';
 import DogCard from './DogCard';
 import { Article, Cat,CatGang } from './ExportImport';
 import { Image } from './ImageUsingProps';
@@ -15,6 +16,7 @@ function App() {
       <Image  location="Malad" src="https://www.thestatesman.com/wp-content/uploads/2020/03/vada-pav-12.jpg"/>
       <Name/>
       <Curlies/>
+      <Counter/>
     </div>
   );
 }

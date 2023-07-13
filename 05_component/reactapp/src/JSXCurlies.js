@@ -6,7 +6,7 @@ function Curlies() {
         <>
             <h1>{services}</h1>
 
-            <h2 style={{ fontSize: '10px', color: "red" }}>{heading}</h2>
+            <h2 style={{ fontSize: '100px', color: "red" }}>{heading}</h2>
         </>
     )
 }
