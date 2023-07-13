@@ -1,3 +1,5 @@
 1.components name(user define) sholud be in start in capital 
 2. Avoid kare nested components banane ka
-3. 
+3. <>
+        //use this to remove the extra div element
+    <>

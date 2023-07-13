@@ -1,5 +1,5 @@
 import DogCard from './DogCard';
-import { Cat,CatGang } from './ExportImport';
+import { Article, Cat,CatGang } from './ExportImport';
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <DogCard/>
       <Cat/>
       <CatGang/>
+      <Article/>
     </div>
   );
 }
