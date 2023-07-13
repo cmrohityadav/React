@@ -21,3 +21,14 @@ export  function CatGang(){
     )
  }
 
+//using fragment:used to remove div
+export function Article() {
+    return(
+        <>
+        <p>Hello Naste!</p>
+        <p>I am Rohit</p>
+        </>
+    )
+    
+}
+
