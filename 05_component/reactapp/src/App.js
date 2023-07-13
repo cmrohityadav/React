@@ -1,3 +1,4 @@
+import Render from './ConditionalRendering';
 import Counter from './CounterUsingHook';
 import DogCard from './DogCard';
 import { Article, Cat,CatGang } from './ExportImport';
@@ -17,6 +18,7 @@ function App() {
       <Name/>
       <Curlies/>
       <Counter/>
+      <Render/>
     </div>
   );
 }
