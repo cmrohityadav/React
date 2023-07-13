@@ -16,7 +16,7 @@ function DogImg(){
     return <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Street_dog_in_pune01.jpg/330px-Street_dog_in_pune01.jpg" alt="" />
     
 }
-export default DogCard;
+export default DogCard;  //sirf ek function ko export krega
 /*
  return(
         //aise nhi chalega
