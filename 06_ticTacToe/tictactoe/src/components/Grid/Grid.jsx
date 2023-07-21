@@ -1,7 +1,8 @@
 import { useState } from "react";
 import Card from "../card/Card";
+import './Grid.css';
 
-function Grid({numberOfCards}){
+function Grid({ numberOfCards }){
 
 const [board,setBoard]=useState(Array(numberOfCards).fill(""));
 
@@ -16,4 +17,5 @@ return(
 );
 
 }
+
 export default Grid;
